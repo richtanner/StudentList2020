@@ -15,6 +15,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
 
     ListView simpleList;
 
+    
     // Array of strings...
     String peopleList[] = {
             "Fisher Coburn",
