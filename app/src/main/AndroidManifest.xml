@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".BenLamontActivity"></activity>
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -19,9 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".ItemListActivity"></activity>
-
+        <activity android:name=".ItemListActivity" />
         <activity android:name=".ProfTannerActivity">
             android:theme="@style/TannerCustomTheme"
             android:label="@string/title_tanner_detail">
