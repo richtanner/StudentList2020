@@ -24,7 +24,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             "Will Gibbs",
             "Caleb Jackson",
             "Carson Kelley",
-            "Ben Lamont",
+            "Ben Lamont", 
             "Sean Logsdon",
             "Julio Lopez",
             "Nathan McKenzie",
