@@ -10,8 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".JustinRaitzActivity">
-
+        <activity
+            android:name=".JustinRaitzActivity"
+            android:label="@string/title_raitz_detail"
+            android:theme="@style/RaitzCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
         </activity>
 
         <activity
