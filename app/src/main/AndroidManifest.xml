@@ -20,9 +20,21 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ItemListActivity"></activity>
+        <activity android:name=".ItemListActivity"
+            android:theme="@style/TannerCustomTheme"
+            android:label="@string/title_tanner_detail">
 
-        <activity android:name=".ProfTannerActivity">
+            ></activity>
+
+        <activity android:name=".ProfTannerActivity"
+            android:theme="@style/TannerCustomTheme"
+            android:label="@string/title_tanner_detail">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+
+        <activity android:name=".GPActivity"
             android:theme="@style/TannerCustomTheme"
             android:label="@string/title_tanner_detail">
             <meta-data

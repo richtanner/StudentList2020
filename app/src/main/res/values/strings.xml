@@ -3,4 +3,8 @@
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+
+    <string name="title_gr_detail">Prof Tanner</string>
+    <string name="g_name">Garrett Powell</string>
+    <string name="g_title">Yes</string>
 </resources>
