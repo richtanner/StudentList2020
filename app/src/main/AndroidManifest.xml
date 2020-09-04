@@ -11,6 +11,15 @@
         android:theme="@style/AppTheme">
 
         <activity
+            android:name=".RouteCreationRunning"
+            android:label="@string/title_rcra_detail"
+            android:theme="@style/RaitzCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".JustinRaitzActivity" />
+        </activity>
+
+        <activity
             android:name=".JustinRaitzActivity"
             android:label="@string/title_raitz_detail"
             android:theme="@style/RaitzCustomTheme">
@@ -29,7 +38,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ItemListActivity"></activity>
+        <activity android:name=".ItemListActivity" />
 
         <activity
             android:name=".ProfTannerActivity"

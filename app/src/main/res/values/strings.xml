@@ -6,4 +6,8 @@
     <string name="title_raitz_detail">JMoney Raitz</string>
     <string name="jmr_name">Justin Raitz</string>
     <string name="jmr_title">Sophomore CS Major (Sports Enthusiast)</string>
+    <string name="title_rcra_detail">Route Creator App</string>
+    <string name="rcra_title">Route Creator Running App</string>
+    <string name="rcra_body">This app creates a route using Google Maps based on a distance the user would like to run!</string>
+    <string name="rcra_descrip">Health and Wellness</string>
 </resources>
