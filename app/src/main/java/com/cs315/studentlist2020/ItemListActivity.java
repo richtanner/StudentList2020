@@ -62,7 +62,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
                 break;
             default:
                 // every case that wasn't specifically called out
-                Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, personSelected + " did pretty good", Toast.LENGTH_LONG).show();
                 break;
         }
 
@@ -74,6 +74,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             Intent intent = new Intent(context, GPActivity.class);
             context.startActivity(intent);
         }
+
         else if (personSelected == "Prof Tanner") {
             // go to a new activity
             Context context = simpleList.getContext();
