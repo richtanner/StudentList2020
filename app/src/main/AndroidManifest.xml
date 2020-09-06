@@ -42,12 +42,13 @@
         <activity
             android:name=".GPActivity"
             android:label="@string/g_title"
-            android:theme="@style/TannerCustomTheme">
+            android:theme="@style/GarrettCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ItemListActivity" />
+                android:value=".ItemListActivity2" />
         </activity>
         <activity android:name=".thirdActivity">
+            android:theme="@style/GarrettCustomTheme"
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

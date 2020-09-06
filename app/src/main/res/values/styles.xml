@@ -18,6 +18,13 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
+    <style name="GarrettCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/GPGreen</item>
+        <item name="colorPrimaryDark">@color/GPOrange</item>
+        <item name="colorAccent">@color/GPYellow</item>
+    </style>
+
     <style name="GTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/customBlue</item>
