@@ -18,6 +18,13 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
+    <style name="BradyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greenBCC</item>
+        <item name="colorPrimaryDark">@color/greenDarkBCC</item>
+        <item name="colorAccent">@color/orangeBCC</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

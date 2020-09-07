@@ -7,4 +7,7 @@
     <color name="customBlue">#315A70</color>
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
+    <color name="greenBCC">#199c24</color>
+    <color name="greenDarkBCC">#06610d</color>
+    <color name="orangeBCC">#e09c14</color>
 </resources>

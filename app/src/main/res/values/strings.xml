@@ -3,4 +3,14 @@
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+
+    <string name="title_brady_detail">Brady Cox</string>
+    <string name="bcc_name">Brady Cox</string>
+    <string name="bcc_title">Game Developer at ACU</string>
+    <string name="budget_detail">Budget App</string>
+    <string name="budget_app">Budget App</string>
+    <string name="budget_desc">This app is meant to be a way for people to budget their monthly income. The hope is to have
+    three saved budget views for each person. After selecting the view the user can choose what type of budget plan they will use
+    or choose to make a custom one. Most budgets use the same categories so each will have the same buttons that open different
+    views where the user can enter what their purchase was. After entering the amount spent the app will auto update the amount of funds left.</string>
 </resources>

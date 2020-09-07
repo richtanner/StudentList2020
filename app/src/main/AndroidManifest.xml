@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -19,15 +18,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".ItemListActivity"></activity>
-
-        <activity android:name=".ProfTannerActivity">
-            android:theme="@style/TannerCustomTheme"
-            android:label="@string/title_tanner_detail">
+        <activity android:name=".ItemListActivity" />
+        <activity
+            android:name=".ProfTannerActivity"
+            android:label="@string/title_tanner_detail"
+            android:theme="@style/TannerCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
+        </activity>
+        <activity
+            android:name=".BradyCActivity"
+            android:label="@string/title_brady_detail"
+            android:theme="@style/BradyCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+        <activity
+            android:name=".BudgetIdeaActivity"
+            android:label="@string/budget_app"
+            android:theme="@style/BradyCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BradyCActivity" />
         </activity>
     </application>
 
