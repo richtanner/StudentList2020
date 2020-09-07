@@ -3,4 +3,7 @@
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+    <string name="title_gibbs_detail">Will Gibbs</string>
+    <string name="wtg_name">Will Gibbs</string>
+    <string name="wtg_title">Ideological Wayfarer</string>
 </resources>

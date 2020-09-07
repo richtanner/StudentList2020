@@ -7,4 +7,7 @@
     <color name="customBlue">#315A70</color>
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
+    <color name="gibbsPrimary">#6600FF</color>
+    <color name="gibbsSecondary">#330099</color>
+    <color name="gibbsTertiary">#000000</color>
 </resources>
