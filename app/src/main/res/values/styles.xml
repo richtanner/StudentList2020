@@ -23,4 +23,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="ZteTheme">
+        <item name="colorPrimaryDark">@color/zteblack</item>
+        <item name="colorAccent">@color/ztelightblue</item>
+        <item name="colorSecondary">@color/zteblue</item>
+    </style>
+
 </resources>
