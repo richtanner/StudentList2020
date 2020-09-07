@@ -24,8 +24,8 @@ public class ItemListActivity2 extends AppCompatActivity implements AdapterView.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_item_list);
-        simpleList2 = (ListView)findViewById(R.id.simpleListView);
+        setContentView(R.layout.activity_gp);
+        simpleList2 = (ListView)findViewById(R.id.language_list2);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textViewInLists, ideaList);
         simpleList2.setAdapter(arrayAdapter);
         simpleList2.setOnItemClickListener(this);  // set THIS class as the listener
