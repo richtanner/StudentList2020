@@ -27,7 +27,7 @@
             android:name=".ItemListActivity"
             android:label="@string/title_tanner_detail"
             android:theme="@style/TannerCustomTheme" />
-
+        
         <activity
             android:name=".ProfTannerActivity"
             android:label="@string/title_tanner_detail"
@@ -40,12 +40,10 @@
             android:name=".GPActivity"
             android:label="@string/g_title"
             android:theme="@style/GarrettCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY" />
+
         </activity>
         <activity android:name=".thirdActivity">
             android:theme="@style/GarrettCustomTheme"
-            android:label="@string/g_title"
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
