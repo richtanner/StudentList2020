@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">CS315 Student List 2020</string>
     <string name="title_tanner_detail">Prof Tanner</string>
+    <string name="title_matthew_detail">Matthew Pietrucha</string>
+    <string name="title_brick_detail">Brick Simulator</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+    <string name="pleasework_MPP">Matthew Pietrucha</string>
+    <string name="labelmpp">CS Sophomore Student</string>
+    <string name="descripBrick">Brick Sim will basically be a brick in the middle of the screen that when you tap on it will expand then go back to normal,
+        while having an audio track of a dog barking and a text that appears and goes up that says woof, more actions will be there if necessary.</string>
+    <string name="hola">Hola</string>
 </resources>
