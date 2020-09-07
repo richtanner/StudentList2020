@@ -28,7 +28,7 @@ public class JustinRaitzActivity extends AppCompatActivity implements AdapterVie
         setContentView(R.layout.activity_justin_raitz);
 
         ideaList = (ListView)findViewById(R.id.idea_list);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textViewInLists, ideaArray);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, ideaArray);
         ideaList.setAdapter(arrayAdapter);
         ideaList.setOnItemClickListener(this);  // set THIS class as the listener
     }
