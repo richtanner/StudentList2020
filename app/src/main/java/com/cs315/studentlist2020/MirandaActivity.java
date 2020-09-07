@@ -22,7 +22,8 @@ public class MirandaActivity extends AppCompatActivity implements AdapterView.On
             "Grocery shopping",
             "Gift ideas",
             "Water reminder",
-            "Healthy meals"
+            "Healthy meals",
+            "Go to the gym"
     };
 
     @Override
