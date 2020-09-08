@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.cs315.studentlist2020">
 
     <application
@@ -9,6 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+      
 
         <activity android:name=".CalebApp"></activity>
 
@@ -74,6 +76,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity android:name=".HealthE"
+            android:parentActivityName=".SeanLogsdonActivity"
+            android:theme="@style/SeanCustomTheme" />
+
         </activity>
         <activity android:name=".ItemListActivity" />
 
@@ -87,16 +95,23 @@
         </activity>
 
         <activity android:name=".CalebActivity" />
-
       
         <activity
             android:name=".CarsonKelleyActivity"
             android:label="@string/title_carson_detail"
             android:theme="@style/CarsonCustomTheme">
-            <meta-data
+
+          <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
+
+        <activity android:name=".SeanLogsdonActivity"
+            android:theme="@style/SeanCustomTheme"
+            android:label="@string/title_sal_detail">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
       
         <activity
             android:name=".IdeaActivity"
@@ -105,6 +120,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".CarsonKelleyActivity" />
+
         </activity>
 
     </application>
