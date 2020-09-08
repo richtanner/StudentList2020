@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MotivationalAppActivity">
-<!--            android:label="@string/title_MRC_detail"-->
-<!--            android:theme="@style/MirandaCustomTheme">-->
+            android:name=".MotivationalAppActivity"
+            android:label="@string/title_MRC_detail"
+            android:theme="@style/MirandaCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MirandaActivity" />

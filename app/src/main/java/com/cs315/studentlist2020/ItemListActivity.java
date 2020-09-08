@@ -62,7 +62,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
                 break;
             case 15:
                 // by specific index
-                Toast.makeText(this, personSelected + "Got my app working!", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, personSelected + " App Ideas", Toast.LENGTH_LONG).show();
                 break;
             default:
                 // every case that wasn't specifically called out

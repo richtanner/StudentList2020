@@ -46,7 +46,7 @@ public class MirandaActivity extends AppCompatActivity implements AdapterView.On
         String appSelected = (String) appList.getAdapter().getItem(position);
 
         if (appSelected == "Motivational") {
-            Toast.makeText(this, appSelected + " More about the app", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, appSelected + " Information", Toast.LENGTH_LONG).show();
             // go to a new activity
             Context context = appList.getContext();
             Intent intent = new Intent(context, MotivationalAppActivity.class);
