@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".CalebApp"></activity>
+        <activity
+            android:name=".CalebApp"
+            android:label="Caleb App"
+            android:theme="@style/CalebCustomTheme"
+        </activity>
 
         <activity android:name=".ReloadingActivity"
             android:label="@string/Reloading_Title"
@@ -86,7 +90,10 @@
                 android:value=".ItemListActivity" />
         </activity>
 
-        <activity android:name=".CalebActivity" />
+        <activity
+            android:name=".CalebActivity"
+            android:label="Caleb Jackson"
+            android:theme="@style/CalebCustomTheme"/>
 
       
         <activity

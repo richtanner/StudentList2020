@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.cs315.studentlist2020.R;
@@ -31,6 +32,11 @@ public class CalebActivity extends AppCompatActivity implements AdapterView.OnIt
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caleb);
+        ImageView avatarImage = (ImageView) findViewById(R.id.Avatar);
+
+        int imageResource = getResources().getIdentifier("@drawable/avatar", null, this.getPackageName());
+
+        avatarImage.setImageResource(imageResource);
 
         appList = (ListView) findViewById(R.id.calebapp_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, langArray);

@@ -18,11 +18,20 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
+    <style name="CalebCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/calebPurple</item>
+        <item name="colorPrimaryDark">@color/calebGrey</item>
+        <item name="colorAccent">@color/calebGrey</item>
+    </style>
+
     <style name="CarsonCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/customPink</item>
         <item name="colorPrimaryDark">@color/customBrown</item>
         <item name="colorAccent">@color/customCream</item>
+    </style>
+
     <style name="tpkCustomTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/tpkPurple</item>
