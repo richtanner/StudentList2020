@@ -21,7 +21,8 @@
 
         </activity>
         <activity android:name=".HealthE"
-            android:parentActivityName=".SeanLogsdonActivity" />
+            android:parentActivityName=".SeanLogsdonActivity"
+            android:theme="@style/SeanCustomTheme" />
         <activity android:name=".ItemListActivity" />
         <activity android:name=".ProfTannerActivity"
             android:theme="@style/TannerCustomTheme"

@@ -1,6 +1,16 @@
 package com.cs315.studentlist2020;
 
 import android.app.Activity;
+import android.os.Bundle;
 
 public class HealthE extends Activity {
+
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_health_e);
+    }
 }

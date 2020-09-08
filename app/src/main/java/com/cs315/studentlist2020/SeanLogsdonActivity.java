@@ -37,18 +37,19 @@ public class SeanLogsdonActivity extends AppCompatActivity implements AdapterVie
 
         String SALAppSelected = (String) ProjListSL.getAdapter().getItem(position);
 
-        if (position == 4) {// by specific index
-            Toast.makeText(this, SALAppSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
-
-        } else {// every case that wasn't specifically called out
-            Toast.makeText(this, SALAppSelected + " selected", Toast.LENGTH_LONG).show();
-        }
-
         if (SALAppSelected == "HealthE") {
             // go to a new activity
             Context context = ProjListSL.getContext();
             Intent intent = new Intent(context, HealthE.class);
             context.startActivity(intent);
+        }
+
+       else if (position == 4) {// by specific index
+            Toast.makeText(this, SALAppSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
+        }
+
+       else {// every case that wasn't specifically called out
+            Toast.makeText(this, SALAppSelected + " selected", Toast.LENGTH_LONG).show();
         }
     }
 }
