@@ -15,8 +15,9 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
 
     ListView simpleList;
 
+    
     // Array of strings...
-    String peopleList[] = {
+    String[] peopleList = {
             "Fisher Coburn",
             "Brady Cox",
             "Anthony Cuthbert",
@@ -56,6 +57,10 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
 
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
+            case 14:
+                // by specific index
+                Toast.makeText(this, personSelected + " copied some jank code!!", Toast.LENGTH_LONG).show();
+                break;
             case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
@@ -67,13 +72,16 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         }
 
         /** do something cool based on the VALUE (string) of the selected item **/
-        if (personSelected == "Prof Tanner") {
+        if (personSelected.equals("Prof Tanner")) {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
-        } else if (personSelected == "Caleb Jackson") {
-            // go to caleb land
+        } else if (personSelected.equals("Justin Raitz")) {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, JustinRaitzActivity.class);
+            context.startActivity(intent);
         }
     }
 }
