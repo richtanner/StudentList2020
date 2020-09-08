@@ -19,10 +19,9 @@
     </style>
 
     <style name="SeanCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/seanBlue</item>
-        <item name="colorPrimaryDark">@color/customBlueDark</item>
-        <item name="colorAccent">@color/customRed</item>
+        <item name="colorPrimaryDark">@color/seanBlue2</item>
+        <item name="colorAccent">@color/seanRed</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
