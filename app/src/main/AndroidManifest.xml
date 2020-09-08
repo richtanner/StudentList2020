@@ -3,8 +3,7 @@
     package="com.cs315.studentlist2020">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-
-
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".ItemListActivity"
             android:label="@string/title_tanner_detail"
@@ -36,22 +37,24 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
+
         <activity
             android:name=".GPActivity"
             android:label="@string/g_title"
             android:theme="@style/GarrettCustomTheme">
-
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
         </activity>
+
         <activity
-            android:name=".thirdActivity">
+            android:name=".GPthirdActivity">
             android:theme="@style/GarrettCustomTheme"
             android:label="@string/g_title"
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
