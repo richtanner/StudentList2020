@@ -23,17 +23,18 @@
         <item name="colorPrimary">@color/customPurple</item>
         <item name="colorPrimaryDark">@color/customBlue_mrc</item>
         <item name="colorAccent">@color/customLightBlue_mrc</item>
-  
+    </style>
     <style name="SeanCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/seanBlue</item>
         <item name="colorPrimaryDark">@color/seanBlue2</item>
         <item name="colorAccent">@color/seanRed</item>
-
+    </style>
     <style name="CarsonCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/customPink</item>
         <item name="colorPrimaryDark">@color/customBrown</item>
         <item name="colorAccent">@color/customCream</item>
+    </style>
     <style name="tpkCustomTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/tpkPurple</item>
