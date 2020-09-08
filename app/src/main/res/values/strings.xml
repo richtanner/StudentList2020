@@ -3,8 +3,16 @@
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+
+
+
+    <string name="Zachary">Zachary Elledge-McGhee</string>
+    <string name="Major">Computer Science Software Engineer</string>
+    <string name="Class">Junior</string>
+
     <string name="jl_name">Julio Lopez</string>
     <string name="jl_title">Future Software Engineer</string>
     <string name="audition_title">Quick Audition</string>
     <string name="audition_description">Quick Audition is an app that allows for recording of auditions and that allows for quick edits to be made right after. This all in one app provides aspiring musicians and actors to make their auditions with a user friendly interface without the stress of a learning curve. </string>
+
 </resources>

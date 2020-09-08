@@ -77,7 +77,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".JustinRaitzActivity" />
         </activity>
-=======
+
 
 
         <activity
@@ -89,19 +89,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+      
         <activity android:name=".ItemListActivity" />
-        <activity
-            android:name=".ProfTannerActivity"
-            android:label="@string/title_tanner_detail"
-            android:theme="@style/TannerCustomTheme">
+        <activity android:name=".ProfTannerActivity">
+
+        </activity>
+
+            android:theme="@style/TannerCustomTheme"
+            android:label="@string/title_tanner_detail">
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
 
-
-
-
+        <activity android:name=".Zachary"
+            android:theme="@style/ZteTheme">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ItemListActivity"/>
+     
     </application>
 
 </manifest>

@@ -83,5 +83,10 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             Intent intent = new Intent(context, Julio.class);
             context.startActivity(intent);
         }
+        if(personSelected == "Zach Elledge-McGhee") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, Zachary.class);
+            context.startActivity(intent);
+        }
     }
 }
