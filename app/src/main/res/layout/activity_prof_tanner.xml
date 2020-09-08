@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/legoprof" />
 
     <TextView
-        android:id="@+id/ReloadingText"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/Reloadingtitle"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -44,10 +44,10 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/ReloadingText" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ListView
-        android:id="@+id/PatchNotesIdea"
+        android:id="@+id/language_list"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
