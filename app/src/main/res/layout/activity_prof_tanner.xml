@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ListView
-        android:id="@+id/idea_list"
+        android:id="@+id/language_list"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"

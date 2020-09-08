@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -29,7 +28,7 @@ public class CarsonKelleyActivity extends AppCompatActivity implements AdapterVi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carson_kelley);
-        ideaList = (ListView)findViewById(R.id.idea_list);
+        ideaList = (ListView)findViewById(R.id.language_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, langArray);
         ideaList.setAdapter(arrayAdapter);
         ideaList.setOnItemClickListener(this);
