@@ -60,9 +60,13 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
                 // by specific index
                 Toast.makeText(this, personSelected + " did a great job!!", Toast.LENGTH_LONG).show();
                 break;
+            case 17:
+                // by specific index
+                Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
+                break;
             default:
                 // every case that wasn't specifically called out
-                Toast.makeText(this, personSelected + " did pretty good", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, personSelected, Toast.LENGTH_LONG).show();
                 break;
         }
 
