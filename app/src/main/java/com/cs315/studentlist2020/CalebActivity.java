@@ -32,12 +32,12 @@ public class CalebActivity extends AppCompatActivity implements AdapterView.OnIt
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caleb);
 
-        appList = (ListView)findViewById(R.id.calebapp_list);
+        appList = (ListView) findViewById(R.id.calebapp_list);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, langArray);
         appList.setAdapter(arrayAdapter);
         appList.setAdapter(arrayAdapter);
         appList.setOnItemClickListener(this);
-
+    }
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
