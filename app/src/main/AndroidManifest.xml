@@ -22,6 +22,9 @@
             android:name=".MirandaActivity"
             android:label="@string/title_MRC_detail"
             android:theme="@style/MirandaCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
         </activity>
         <activity android:name=".CalebApp"></activity>
 
