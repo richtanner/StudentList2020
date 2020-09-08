@@ -8,4 +8,11 @@
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
     <color name="calebPurple">#692FD1</color>
+    <color name="customPink">#ff8daa</color>
+    <color name="customBrown">#7e6651</color>
+    <color name="customCream">#f6e2b3</color>
+    <color name="tpkPurple">#4E0B6A</color>
+    <color name="raitzOrange">#FF5722</color>
+    <color name="raitzBurntOrange">#9E3616</color>
+    <color name="raitzGray">#717380</color>
 </resources>
