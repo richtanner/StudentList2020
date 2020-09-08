@@ -9,6 +9,61 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity android:name=".ReloadingActivity"
+            android:label="@string/Reloading_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity android:name=".RvAtvActivity"
+            android:label="@string/RvATV_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity android:name=".WorkoutActivity"
+            android:label="@string/Workout_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity android:name=".PatchNoteActivity"
+            android:label="@string/Patch_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity
+            android:name=".TannerParkerActivity"
+            android:label="@string/title_tpk_detail"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+        <activity
+            android:name=".RouteCreationRunning"
+            android:label="@string/title_rcra_detail"
+            android:theme="@style/RaitzCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".JustinRaitzActivity" />
+        </activity>
+
+        <activity
+            android:name=".JustinRaitzActivity"
+            android:label="@string/title_raitz_detail"
+            android:theme="@style/RaitzCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -18,7 +73,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+      
         <activity android:name=".ItemListActivity" />
+
         <activity
             android:name=".ProfTannerActivity"
             android:label="@string/title_tanner_detail"
@@ -27,6 +85,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
+      
         <activity
             android:name=".CarsonKelleyActivity"
             android:label="@string/title_carson_detail"
@@ -35,6 +94,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
+      
         <activity
             android:name=".IdeaActivity"
             android:label="@string/title_idea_detail"

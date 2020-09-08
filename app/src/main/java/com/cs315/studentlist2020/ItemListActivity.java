@@ -15,8 +15,9 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
 
     ListView simpleList;
 
+    
     // Array of strings...
-    String peopleList[] = {
+    String[] peopleList = {
             "Fisher Coburn",
             "Brady Cox",
             "Anthony Cuthbert",
@@ -41,6 +42,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item_list);
+
         simpleList = (ListView)findViewById(R.id.simpleListView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textViewInLists, peopleList);
         simpleList.setAdapter(arrayAdapter);
@@ -56,10 +58,20 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
 
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
+            case 14:
+                // by specific index
+                Toast.makeText(this, personSelected + " copied some jank code!!", Toast.LENGTH_LONG).show();
+                break;
             case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
                 break;
+
+            case 11:
+                // by specific index
+                Toast.makeText(this, personSelected + " won the gulag!!", Toast.LENGTH_LONG).show();
+                break;
+
             default:
                 // every case that wasn't specifically called out
                 Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
@@ -67,10 +79,22 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         }
 
         /** do something cool based on the VALUE (string) of the selected item **/
-        if (personSelected == "Prof Tanner") {
+        if (personSelected.equals("Prof Tanner")) {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
+            context.startActivity(intent);
+
+        }else if(personSelected == "Tanner Parker"){
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, TannerParkerActivity.class);
+            context.startActivity(intent);
+
+        } else if (personSelected.equals("Justin Raitz")) {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, JustinRaitzActivity.class);
             context.startActivity(intent);
         }
         else if (personSelected == "Carson Kelley") {
