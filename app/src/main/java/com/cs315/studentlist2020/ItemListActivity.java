@@ -57,14 +57,16 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         String personSelected = (String) simpleList.getAdapter().getItem(position);
 
         /** do something cool based on the INDEX (int) of the selected item **/
+
         switch (position) {
+
             case 14:
                 // by specific index
                 Toast.makeText(this, personSelected + " copied some jank code!!", Toast.LENGTH_LONG).show();
                 break;
-            case 17:
-                // by specific index
-                Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
+
+            case 5:
+                Toast.makeText(this, personSelected + " has infiltrated area 51", Toast.LENGTH_LONG).show();
                 break;
 
             case 11:
@@ -85,6 +87,14 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
 
+
+        } else if (personSelected == "Caleb Jackson") {
+
+             Context context = simpleList.getContext();
+             Intent intent = new Intent(context, CalebActivity.class);
+             context.startActivity(intent);
+
+
         }else if(personSelected == "Tanner Parker"){
             // go to a new activity
             Context context = simpleList.getContext();
@@ -102,6 +112,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, CarsonKelleyActivity.class);
             context.startActivity(intent);
+
         }
     }
 }

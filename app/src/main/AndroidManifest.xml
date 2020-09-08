@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".CalebApp"></activity>
+
         <activity android:name=".ReloadingActivity"
             android:label="@string/Reloading_Title"
             android:theme="@style/tpkCustomTheme">
@@ -73,8 +75,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-      
         <activity android:name=".ItemListActivity" />
 
         <activity
@@ -85,6 +85,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
+
+        <activity android:name=".CalebActivity" />
+
       
         <activity
             android:name=".CarsonKelleyActivity"
