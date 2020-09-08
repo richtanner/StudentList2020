@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".ReloadingActivity"
             android:label="@string/Reloading_Title"
             android:theme="@style/tpkCustomTheme">
@@ -73,6 +74,7 @@
             </intent-filter>
         </activity>
 
+      
         <activity android:name=".ItemListActivity" />
 
         <activity
@@ -83,6 +85,25 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
+      
+        <activity
+            android:name=".CarsonKelleyActivity"
+            android:label="@string/title_carson_detail"
+            android:theme="@style/CarsonCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+      
+        <activity
+            android:name=".IdeaActivity"
+            android:label="@string/title_idea_detail"
+            android:theme="@style/CarsonCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CarsonKelleyActivity" />
+        </activity>
+
     </application>
 
 </manifest>
