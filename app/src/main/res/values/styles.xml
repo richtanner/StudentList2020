@@ -25,6 +25,13 @@
         <item name="colorAccent">@color/tpkPurple</item>
     </style>
 
+    <style name="RaitzCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/raitzOrange</item>
+        <item name="colorPrimaryDark">@color/raitzBurntOrange</item>
+        <item name="colorAccent">@color/raitzGray</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

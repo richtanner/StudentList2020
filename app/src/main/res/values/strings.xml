@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">CS315 Student List 2020</string>
-    <string name="title_tanner_detail">Prof Tanner</string>
+    <string name="title_tanner_detail">Prof Tanner String</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
     <string name="title_tpk_detail">Tanner Parker</string>
@@ -16,6 +16,12 @@
     <string name="Reloading_Name">Reloading 101</string>
     <string name="Reloading_Title">Reloading: Shotgun Edition</string>
     <string name="shellView">shellView</string>
-
+    <string name="title_raitz_detail">Student J. Raitz</string>
+    <string name="jmr_name">Justin Raitz</string>
+    <string name="jmr_title">Sophomore CS Major (Sports Enthusiast)</string>
+    <string name="title_rcra_detail">Route Creator App</string>
+    <string name="rcra_title">Route Creator Running App</string>
+    <string name="rcra_body">This app creates a route using Google Maps based on a distance the user would like to run!</string>
+    <string name="rcra_descrip">Health and Wellness</string>
 
 </resources>
