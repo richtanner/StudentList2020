@@ -72,6 +72,8 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
+        } else if (personSelected == "Caleb Jackson") {
+            // go to caleb land
         }
         if(personSelected == "Zach Elledge-McGhee") {
             Context context = simpleList.getContext();

@@ -19,8 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+      
         <activity android:name=".ItemListActivity" />
         <activity android:name=".ProfTannerActivity">
+
+        </activity>
+
             android:theme="@style/TannerCustomTheme"
             android:label="@string/title_tanner_detail">
             <meta-data
