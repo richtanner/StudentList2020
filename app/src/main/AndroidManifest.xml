@@ -48,9 +48,9 @@
         </activity>
 
         <activity
-            android:name=".GPthirdActivity">
+            android:name=".GPthirdActivity"
             android:theme="@style/GarrettCustomTheme"
-            android:label="@string/g_title"
+            android:label="Ratman">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
                     <category android:name="android.intent.category.LAUNCHER" />
