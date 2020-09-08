@@ -19,7 +19,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/salprofilepic" />
 
-
     <TextView
         android:id="@+id/textViewHealthE"
         android:layout_width="0dp"
