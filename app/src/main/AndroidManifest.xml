@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.cs315.studentlist2020">
 
     <application
@@ -10,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".MotivationalAppActivity"
             android:label="@string/title_MRC_detail"
@@ -72,16 +72,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".JustinRaitzActivity" />
         </activity>
+=======
 
-        <activity
-            android:name=".JustinRaitzActivity"
-            android:label="@string/title_raitz_detail"
-            android:theme="@style/RaitzCustomTheme">
 
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ItemListActivity" />
-        </activity>
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -90,52 +83,17 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".HealthE"
-            android:parentActivityName=".SeanLogsdonActivity"
-            android:theme="@style/SeanCustomTheme" />
 
-        <!--        </activity>-->
-        <activity android:name=".ItemListActivity" />
+        <activity android:name=".ItemListActivity"></activity>
 
-        <activity
-            android:name=".ProfTannerActivity"
-            android:label="@string/title_tanner_detail"
-            android:theme="@style/TannerCustomTheme">
+        <activity android:name=".ProfTannerActivity">
+            android:theme="@style/TannerCustomTheme"
+            android:label="@string/title_tanner_detail">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
-        <activity android:name=".CalebActivity" />
-      
-        <activity
-            android:name=".CarsonKelleyActivity"
-            android:label="@string/title_carson_detail"
-            android:theme="@style/CarsonCustomTheme">
-
-          <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ItemListActivity" />
-        </activity>
-
-        <activity android:name=".SeanLogsdonActivity"
-            android:theme="@style/SeanCustomTheme"
-            android:label="@string/title_sal_detail">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ItemListActivity" />
-        </activity>
-        <activity
-            android:name=".IdeaActivity"
-            android:label="@string/title_idea_detail"
-            android:theme="@style/CarsonCustomTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CarsonKelleyActivity" />
-
-        </activity>
-
     </application>
 
 </manifest>

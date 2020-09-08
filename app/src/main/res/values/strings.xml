@@ -1,50 +1,6 @@
 <resources>
     <string name="app_name">CS315 Student List 2020</string>
-    <string name="title_tanner_detail">Prof Tanner String</string>
+    <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
-    <string name="title_MRC_detail">Miranda</string>
-    <string name="MRC_name">Miranda Ramirez Cospin</string>
-    <string name="MRC_title">Ideas for CS 315</string>
-    <string name="MRC_info_motivational">This application will include different phrases to motivate de user.
-    It will have different Bible verses and famous phrases about motivation. The goal of this app is to make
-        the user like some motivational phrases. So there will be a button to "like" the phrase, and that
-        phrase will be saved in another activity, so the user can go back and see their favorite phrases.
-        Also it will have another button that can let the user save the phrase, as a picture, in their camera
-        roll. The user will be able to scroll down and to see more phrases, they can scroll up to see the
-        previous phrase too.
-    </string>
-    <string name="MRC_info_topics"> As said before, they will be Bible verses and famous phrases, so the user
-        can choose between this two options and look through the different types of phrases. The goal is to show
-        motivational phrases and the user to be able to see all the phrases they liked and to choose from a
-        category in specific.
-    </string>
-    <string name="title_sal_detail">Sean Logsdon</string>
-    <string name="sal_name">Sean Logsdon</string>
-    <string name="sal_title">Sophomore CS Major</string>
-    <string name="strong_talk">Health E will be an app aimed at gamers seeking to become more healthy. The app will begin with a fitness test to gauge fitness level. The more you workout , the higher your fitness level becomes. The app is designed to ease the less athletically inclined to keeping a regular workout schedule/habits.This will consist of mostly simple body weight workouts that can be done at home. There is a lot of room for expansion of including features to help eating habits and sleep. </string>
-    <string name="title_carson_detail">Student Man Carson</string>
-    <string name="ckk_name">Carson Kelley</string>
-    <string name="ckk_title">Student Man</string>
-    <string name="title_idea_detail">Ice Cream Idea</string>
-    <string name="title_tpk_detail">Tanner Parker</string>
-    <string name="tpk_name">Tanner Parker</string>
-    <string name="tpk_title">Master of the hot drop</string>
-    <string name="tpklogo">tpklogo</string>
-    <string name="Patch_Name">Patch Notes</string>
-    <string name="Patch_Title">CoD: Warzone</string>
-    <string name="Workout_Name">Workout</string>
-    <string name="Workout_Title">Workout: Lifting Schedule</string>
-    <string name="RvATV_Name">RV/ATV</string>
-    <string name="RvATV_Title">RV/ATV: Detailing Schedule</string>
-    <string name="Reloading_Name">Reloading 101</string>
-    <string name="Reloading_Title">Reloading: Shotgun Edition</string>
-    <string name="shellView">shellView</string>
-    <string name="title_raitz_detail">Student J. Raitz</string>
-    <string name="jmr_name">Justin Raitz</string>
-    <string name="jmr_title">Sophomore CS Major (Sports Enthusiast)</string>
-    <string name="title_rcra_detail">Route Creator App</string>
-    <string name="rcra_title">Route Creator Running App</string>
-    <string name="rcra_body">This app creates a route using Google Maps based on a distance the user would like to run!</string>
-    <string name="rcra_descrip">Health and Wellness</string>
 </resources>
