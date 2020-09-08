@@ -22,6 +22,25 @@
         <item name="colorPrimary">@color/seanBlue</item>
         <item name="colorPrimaryDark">@color/seanBlue2</item>
         <item name="colorAccent">@color/seanRed</item>
+
+    <style name="CarsonCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/customPink</item>
+        <item name="colorPrimaryDark">@color/customBrown</item>
+        <item name="colorAccent">@color/customCream</item>
+    <style name="tpkCustomTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/tpkPurple</item>
+        <item name="colorPrimaryDark">@color/tpkPurple</item>
+        <item name="colorAccent">@color/tpkPurple</item>
+    </style>
+
+    <style name="RaitzCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/raitzOrange</item>
+        <item name="colorPrimaryDark">@color/raitzBurntOrange</item>
+        <item name="colorAccent">@color/raitzGray</item>
+
     </style>
 
     <style name="AppTheme.NoActionBar">
