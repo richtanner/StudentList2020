@@ -10,8 +10,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-      
-
+        <activity
+            android:name=".MotivationalAppActivity"
+            android:label="@string/title_MRC_detail"
+            android:theme="@style/MirandaCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MirandaActivity" />
+        </activity>
+        <activity
+            android:name=".MirandaActivity"
+            android:label="@string/title_MRC_detail"
+            android:theme="@style/MirandaCustomTheme">
         <activity android:name=".CalebApp"></activity>
 
         <activity android:name=".ReloadingActivity"
@@ -63,11 +73,11 @@
             android:name=".JustinRaitzActivity"
             android:label="@string/title_raitz_detail"
             android:theme="@style/RaitzCustomTheme">
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
-
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -93,7 +103,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
-
         <activity android:name=".CalebActivity" />
       
         <activity

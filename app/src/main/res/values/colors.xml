@@ -7,6 +7,9 @@
     <color name="customBlue">#315A70</color>
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
+    <color name="customPurple">#9C27B0</color>
+    <color name="customBlue_mrc">#009688</color>
+    <color name="customLightBlue_mrc">#00BCD4</color>
     <color name="seanBlue">#33D4FF</color>
     <color name="seanBlue2">#2DA3C2</color>
     <color name="seanRed">#E93131</color>

@@ -3,6 +3,22 @@
     <string name="title_tanner_detail">Prof Tanner String</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+    <string name="title_MRC_detail">Miranda</string>
+    <string name="MRC_name">Miranda Ramirez Cospin</string>
+    <string name="MRC_title">Ideas for CS 315</string>
+    <string name="MRC_info_motivational">This application will include different phrases to motivate de user.
+    It will have different Bible verses and famous phrases about motivation. The goal of this app is to make
+        the user like some motivational phrases. So there will be a button to "like" the phrase, and that
+        phrase will be saved in another activity, so the user can go back and see their favorite phrases.
+        Also it will have another button that can let the user save the phrase, as a picture, in their camera
+        roll. The user will be able to scroll down and to see more phrases, they can scroll up to see the
+        previous phrase too.
+    </string>
+    <string name="MRC_info_topics"> As said before, they will be Bible verses and famous phrases, so the user
+        can choose between this two options and look through the different types of phrases. The goal is to show
+        motivational phrases and the user to be able to see all the phrases they liked and to choose from a
+        category in specific.
+    </string>
     <string name="title_sal_detail">Sean Logsdon</string>
     <string name="sal_name">Sean Logsdon</string>
     <string name="sal_title">Sophomore CS Major</string>
