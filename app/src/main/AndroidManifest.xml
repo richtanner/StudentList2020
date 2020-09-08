@@ -20,9 +20,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ItemListActivity"></activity>
+        <activity android:name=".ItemListActivity">
 
-        <activity android:name=".ProfTannerActivity">
+        </activity>
+
+        <activity android:name=".ProfTannerActivity"
             android:theme="@style/TannerCustomTheme"
             android:label="@string/title_tanner_detail">
             <meta-data
