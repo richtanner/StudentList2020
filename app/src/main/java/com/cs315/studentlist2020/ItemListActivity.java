@@ -71,14 +71,14 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         }
 
         /** do something cool based on the VALUE (string) of the selected item **/
-        if (personSelected == "Prof Tanner") {
+        if (personSelected.equals("Prof Tanner")) {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
         }
 
-        else if (personSelected == "Garrett Powell") {
+        else if (personSelected.equals("Garrett Powell")) {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, GPActivity.class);
