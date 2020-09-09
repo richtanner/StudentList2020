@@ -2,6 +2,7 @@ package com.cs315.studentlist2020;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -71,6 +72,12 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
+            context.startActivity(intent);
+        }
+        else if  (personSelected == "Anthony Cuthbert"){
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, AnthonyCuthbertActivity.class);
             context.startActivity(intent);
         }
     }

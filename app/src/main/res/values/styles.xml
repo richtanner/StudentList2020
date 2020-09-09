@@ -18,6 +18,13 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
+    <style name="AnthonyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/acrPrim</item>
+        <item name="colorPrimaryDark">@color/acrDark</item>
+        <item name="colorAccent">@color/acrAccent</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
