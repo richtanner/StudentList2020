@@ -9,10 +9,81 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".BrickSim"
             android:label="@string/title_brick_detail"
             android:theme="@style/MatTheme"
             android:parentActivityName="mppFile"></activity>
+
+        <activity android:name=".QuickAudition"
+            android:parentActivityName=".Julio">
+
+        </activity>
+        <activity android:name=".Julio"
+            android:parentActivityName=".ItemListActivity"/>
+        <activity
+            android:name=".MotivationalAppActivity"
+            android:label="@string/title_MRC_detail"
+            android:theme="@style/MirandaCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MirandaActivity" />
+        </activity>
+        <activity
+            android:name=".MirandaActivity"
+            android:label="@string/title_MRC_detail"
+            android:theme="@style/MirandaCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+        <activity android:name=".CalebApp"></activity>
+
+        <activity android:name=".ReloadingActivity"
+            android:label="@string/Reloading_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity android:name=".RvAtvActivity"
+            android:label="@string/RvATV_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity android:name=".WorkoutActivity"
+            android:label="@string/Workout_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity android:name=".PatchNoteActivity"
+            android:label="@string/Patch_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity
+            android:name=".TannerParkerActivity"
+            android:label="@string/title_tpk_detail"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+        <activity
+            android:name=".RouteCreationRunning"
+            android:label="@string/title_rcra_detail"
+            android:theme="@style/RaitzCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".JustinRaitzActivity" />
+        </activity>
+
 
         <activity
             android:name=".mppFile"
@@ -28,15 +99,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+      
         <activity android:name=".ItemListActivity" />
-        <activity
-            android:name=".ProfTannerActivity"
-            android:label="@string/title_tanner_detail"
-            android:theme="@style/TannerCustomTheme">
+        <activity android:name=".ProfTannerActivity"
+
+
+            android:theme="@style/TannerCustomTheme"
+            android:label="@string/title_tanner_detail">
+
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
+
+        <activity android:name=".Zachary"
+            android:theme="@style/ZteTheme">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".ItemListActivity"/>
+     
     </application>
 
 </manifest>

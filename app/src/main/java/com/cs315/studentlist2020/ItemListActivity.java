@@ -56,7 +56,11 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
 
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
-            case 12:
+
+            case 9: // case for Julio
+                Toast.makeText(this,personSelected + " is the coolest person!!", Toast.LENGTH_LONG).show();
+                break;
+            case 12: //case for Matthew
                 Toast.makeText(this, personSelected + " Im begging you to work correctly android studio!!", Toast.LENGTH_LONG).show();
                 break;
             case 17:
@@ -80,6 +84,18 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         else if(personSelected == "Matthew Pietrucha") {
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, mppFile.class);
+            context.startActivity(intent);
+        }
+
+        else if(personSelected == "Julio Lopez") {
+            // go to Julio's new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, Julio.class);
+            context.startActivity(intent);
+        }
+        else if(personSelected == "Zach Elledge-McGhee") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, Zachary.class);
             context.startActivity(intent);
         }
     }

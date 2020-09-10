@@ -23,6 +23,7 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+
     <style name="MatTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/newPurple</item>
@@ -30,6 +31,13 @@
         <item name="colorAccent">@color/newCol</item>
     </style>
 
+
+
+    <style name="ZteTheme">
+        <item name="colorPrimaryDark">@color/zteblack</item>
+        <item name="colorAccent">@color/ztelightblue</item>
+        <item name="colorSecondary">@color/zteblue</item>
+    </style>
 
 
 </resources>
