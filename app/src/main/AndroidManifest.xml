@@ -13,8 +13,8 @@
         <activity
             android:name=".CalebApp"
             android:label="Caleb App"
-            android:theme="@style/CalebCustomTheme"
-        </activity>
+            android:theme="@style/CalebCustomTheme">
+    </activity>
 
         <activity android:name=".ReloadingActivity"
             android:label="@string/Reloading_Title"
