@@ -41,7 +41,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item_list);
-        simpleList = (ListView)findViewById(R.id.simpleListView);
+        simpleList = (ListView) findViewById(R.id.simpleListView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textViewInLists, peopleList);
         simpleList.setAdapter(arrayAdapter);
         simpleList.setOnItemClickListener(this);  // set THIS class as the listener
@@ -58,11 +58,11 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         switch (position) {
             case 17:
                 // by specific index
-                Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, personSelected + " wrote some jank code!", Toast.LENGTH_LONG).show();
                 break;
             default:
                 // every case that wasn't specifically called out
-                Toast.makeText(this, personSelected + " selected", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, personSelected + " worked hard on the code!", Toast.LENGTH_LONG).show();
                 break;
         }
 
@@ -72,8 +72,13 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
-        } else if (personSelected == "Caleb Jackson") {
-            // go to caleb land
+
+        }
+        if (personSelected == "Will Stanley") {
+            // go to Will's activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, WillStanley.class);
+            context.startActivity(intent);
         }
     }
 }

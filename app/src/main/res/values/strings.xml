@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">CS315 Student List 2020</string>
-    <string name="title_tanner_detail">Prof Tanner String</string>
+    <string name="title_tanner_detail">CS315 Student List 2020</string>
+    <string name="rwt_name">Rich Tanner</string>
+    <string name="rwt_title">Clinical Professor Of DET</string>
+    <string name="whs_title">DET Member of ACU</string>
     <string name="whs_name">Will Stanley</string>
-    <string name="whs_title">DET Major Of ACU</string>
 </resources>
