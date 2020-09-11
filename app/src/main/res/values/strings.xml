@@ -5,4 +5,6 @@
     <string name="rwt_title">Clinical Professor Of DET</string>
     <string name="whs_title">DET Member of ACU</string>
     <string name="whs_name">Will Stanley</string>
+    <string name="whs_appIdea">App Idea: Tic-Tac-Toe!</string>
+    <string name="whs_ideaDescription">Want to find a way to kill some time with a friend? Then play a couple of rounds of Tic Tac Toe, with scores and everything!</string>
 </resources>

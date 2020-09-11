@@ -9,44 +9,46 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="193dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="108dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="110dp"
         android:contentDescription="@string/whs_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tstzehat_400x400" />
+        app:srcCompat="@drawable/tic_tac_toe" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/whs_name"
+        android:layout_width="273dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="248dp"
+        android:text="@string/whs_appIdea"
         android:textAlignment="viewStart"
         android:textColor="@color/willpurple"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/whs_title"
+        android:layout_width="345dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/whs_ideaDescription"
         android:textAlignment="viewStart"
         android:textColor="@color/willblue"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

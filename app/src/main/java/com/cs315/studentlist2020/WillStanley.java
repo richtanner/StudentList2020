@@ -18,7 +18,7 @@ public class WillStanley extends AppCompatActivity implements AdapterView.OnItem
 
     // Array of strings...
     String langArray[] = {
-            "App Ideas!",
+            "App Idea",
             "Maya Autodesk",
             "Blender 3D",
             "Adobe Photoshop",
@@ -47,13 +47,13 @@ public class WillStanley extends AppCompatActivity implements AdapterView.OnItem
 
         switch (position) {
             case 0:
-                Toast.makeText(this, itemSelected + " were thought up by Will!", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, itemSelected + " was thought of by Will!", Toast.LENGTH_LONG).show();
                 break;
             default:
                 Toast.makeText(this, itemSelected + " is a program Will uses!", Toast.LENGTH_LONG).show();
 
         }
-        if (itemSelected == "App Ideas!") {
+        if (itemSelected == "App Idea") {
             // Go to the new tab under App Ideas
             Context context = languageList.getContext();
             Intent intent = new Intent(context, AppIdea.class);
