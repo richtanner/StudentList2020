@@ -10,4 +10,11 @@
     <color name="gibbsPrimary">#6600FF</color>
     <color name="gibbsSecondary">#330099</color>
     <color name="gibbsTertiary">#000000</color>
+    <color name="newPurple">#9400D3</color>
+    <color name="newOrange">#FFD700</color>
+    <color name="newCol">#a28382</color>
+    <color name="ztegray">#3F3F3F</color>
+    <color name="zteblue">#008577</color>
+    <color name="zteblack">#0C0C0C</color>
+    <color name= "ztelightblue">#89f0e3</color>
 </resources>

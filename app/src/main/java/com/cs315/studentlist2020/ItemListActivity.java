@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class ItemListActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     ListView simpleList;
-
+    //hola
     // Array of strings...
     String peopleList[] = {
             "Fisher Coburn",
@@ -57,8 +57,15 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
             case 4:
-                // by specific index
+                // case for Will
                 Toast.makeText(this, personSelected + " gives it one more go...", Toast.LENGTH_LONG).show();
+                break;
+            case 9: // case for Julio
+                Toast.makeText(this,personSelected + " is the coolest person!!", Toast.LENGTH_LONG).show();
+                break;
+            case 12: //case for Matthew
+                Toast.makeText(this, personSelected + " Im begging you to work correctly android studio!!", Toast.LENGTH_LONG).show();
+                break;
             case 17:
                 // by specific index
                 Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
@@ -74,6 +81,24 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
+            context.startActivity(intent);
+
+        }
+        else if(personSelected == "Matthew Pietrucha") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, mppFile.class);
+            context.startActivity(intent);
+        }
+
+        else if(personSelected == "Julio Lopez") {
+            // go to Julio's new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, Julio.class);
+            context.startActivity(intent);
+        }
+        else if(personSelected == "Zach Elledge-McGhee") {
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, Zachary.class);
             context.startActivity(intent);
         }
         else if (personSelected == "Will Gibbs") {
