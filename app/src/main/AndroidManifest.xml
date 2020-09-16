@@ -11,6 +11,66 @@
         android:theme="@style/AppTheme">
 
         <activity
+            android:name=".CalebApp"
+            android:label="Caleb App"
+            android:theme="@style/CalebCustomTheme">
+    </activity>
+
+        <activity android:name=".ReloadingActivity"
+            android:label="@string/Reloading_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity android:name=".RvAtvActivity"
+            android:label="@string/RvATV_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity android:name=".WorkoutActivity"
+            android:label="@string/Workout_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity android:name=".PatchNoteActivity"
+            android:label="@string/Patch_Title"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TannerParkerActivity" />
+        </activity>
+        <activity
+            android:name=".TannerParkerActivity"
+            android:label="@string/title_tpk_detail"
+            android:theme="@style/tpkCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+        <activity
+            android:name=".RouteCreationRunning"
+            android:label="@string/title_rcra_detail"
+            android:theme="@style/RaitzCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".JustinRaitzActivity" />
+        </activity>
+
+        <activity
+            android:name=".JustinRaitzActivity"
+            android:label="@string/title_raitz_detail"
+            android:theme="@style/RaitzCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+
+        <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -19,18 +79,41 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ItemListActivity" />
 
-        <activity android:name=".ItemListActivity">
-
-        </activity>
-
-        <activity android:name=".ProfTannerActivity"
-            android:theme="@style/TannerCustomTheme"
-            android:label="@string/title_tanner_detail">
+        <activity
+            android:name=".ProfTannerActivity"
+            android:label="@string/title_tanner_detail"
+            android:theme="@style/TannerCustomTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
+
+        <activity
+            android:name=".CalebActivity"
+            android:label="Caleb Jackson"
+            android:theme="@style/CalebCustomTheme"/>
+
+      
+        <activity
+            android:name=".CarsonKelleyActivity"
+            android:label="@string/title_carson_detail"
+            android:theme="@style/CarsonCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+      
+        <activity
+            android:name=".IdeaActivity"
+            android:label="@string/title_idea_detail"
+            android:theme="@style/CarsonCustomTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CarsonKelleyActivity" />
+        </activity>
+
     </application>
 
 </manifest>
