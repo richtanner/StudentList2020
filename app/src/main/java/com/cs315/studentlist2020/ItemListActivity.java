@@ -18,7 +18,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
     
     // Array of strings...
     String[] peopleList = {
-            "Fisher Coburn",
+            "Fisher Coburn", //0
             "Brady Cox",
             "Anthony Cuthbert",
             "Zach Elledge-McGhee",
@@ -35,7 +35,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             "Justin Raitz",
             "Miranda Ramirez Cospin",
             "Will Stanley",
-            "Prof Tanner"
+            "Prof Tanner" //17
     };
 
     @Override
@@ -60,18 +60,23 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
 
         switch (position) {
 
-            case 14:
-                // by specific index
-                Toast.makeText(this, personSelected + " copied some jank code!!", Toast.LENGTH_LONG).show();
-                break;
-
             case 5:
+                // by specific index
                 Toast.makeText(this, personSelected + " has infiltrated area 51", Toast.LENGTH_LONG).show();
                 break;
 
             case 11:
                 // by specific index
                 Toast.makeText(this, personSelected + " won the gulag!!", Toast.LENGTH_LONG).show();
+                break;
+
+            case 14:
+                // by specific index
+                Toast.makeText(this, personSelected + " copied some jank code!!", Toast.LENGTH_LONG).show();
+                break;
+            case 17:
+                // by specific index
+                Toast.makeText(this, personSelected + " performed GIT surgery to fix the Master branch!!", Toast.LENGTH_LONG).show();
                 break;
 
             default:
@@ -81,38 +86,44 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         }
 
         /** do something cool based on the VALUE (string) of the selected item **/
-        if (personSelected.equals("Prof Tanner")) {
+        if (personSelected.equals("Prof Tanner"))
+        {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, ProfTannerActivity.class);
             context.startActivity(intent);
-
-
-        } else if (personSelected == "Caleb Jackson") {
+        }
+        else if (personSelected == "Caleb Jackson")
+        {
 
              Context context = simpleList.getContext();
              Intent intent = new Intent(context, CalebActivity.class);
              context.startActivity(intent);
 
 
-        }else if(personSelected == "Tanner Parker"){
-            // go to a new activity
-            Context context = simpleList.getContext();
-            Intent intent = new Intent(context, TannerParkerActivity.class);
-            context.startActivity(intent);
-
-        } else if (personSelected.equals("Justin Raitz")) {
-            // go to a new activity
-            Context context = simpleList.getContext();
-            Intent intent = new Intent(context, JustinRaitzActivity.class);
-            context.startActivity(intent);
         }
-        else if (personSelected == "Carson Kelley") {
+        else if (personSelected == "Carson Kelley")
+        {
             // go to a new activity
             Context context = simpleList.getContext();
             Intent intent = new Intent(context, CarsonKelleyActivity.class);
             context.startActivity(intent);
 
+        }
+        else if(personSelected == "Tanner Parker")
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, TannerParkerActivity.class);
+            context.startActivity(intent);
+
+        }
+        else if (personSelected.equals("Justin Raitz"))
+        {
+            // go to a new activity
+            Context context = simpleList.getContext();
+            Intent intent = new Intent(context, JustinRaitzActivity.class);
+            context.startActivity(intent);
         }
     }
 }
