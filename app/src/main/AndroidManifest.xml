@@ -107,10 +107,11 @@
 
         <activity android:name=".SeanLogsdonActivity"
             android:theme="@style/SeanCustomTheme"
-            android:label="@string/title_sal_detail"/>
+            android:label="@string/title_sal_detail">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
+        </activity>
       
         <activity
             android:name=".IdeaActivity"
