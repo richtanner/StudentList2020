@@ -19,14 +19,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".ItemListActivity" />
-        <activity android:name=".ProfTannerActivity">
+        <activity android:name=".ProfTannerActivity"
             android:theme="@style/TannerCustomTheme"
             android:label="@string/title_tanner_detail">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ItemListActivity" />
         </activity>
-        <activity android:name=".GibbsActivity">
+        <activity android:name=".GibbsActivity"
             android:theme="@style/GibbsCustomTheme"
             android:label="@string/title_gibbs_detail">
             <meta-data
