@@ -84,7 +84,5 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
             Intent intent = new Intent(context, GPActivity.class);
             context.startActivity(intent);
         }
-
-
     }
 }
