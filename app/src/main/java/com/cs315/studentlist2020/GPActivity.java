@@ -12,7 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class GPActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
-    
+
 
     ListView simpleList2;
 
