@@ -12,9 +12,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class GPActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
-
-    //put this here for a commit
     
+
     ListView simpleList2;
 
     // Array of strings...
